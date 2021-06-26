@@ -38,6 +38,14 @@ section .row {
 
 .card-customer {
   transition: 1s;
+  min-height: 250px;
+  padding: auto;
+  vertical-align: middle;
+}
+
+.card-customer img {
+  width: 100%;
+  margin: auto;
 }
 
 .card-customer:hover {

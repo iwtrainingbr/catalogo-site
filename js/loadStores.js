@@ -8,7 +8,7 @@ function loadStores() {
         let store = response[id];
 
         document.getElementById('stores-list').innerHTML += `
-          <div class="col-md-3">
+          <div class="col-md-3 mt-3">
             <div class="card card-body card-customer">
               <img src="${store.image}" alt="">
             </div>
